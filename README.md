@@ -1,32 +1,98 @@
-# Frontend Assignment 🚀
+# MentionInput Component
 
-Project: Mentions component
-Time provided: 2 hours
-Tech stack: React + Typescript
-Link to design: [Design](https://www.figma.com/file/EEmRktq44VPR3u8Lx7otOJ/Frontend-Assignment---Dropdown?type=design&t=YyUdu9qHBb3sS66T-6)
+## Overview
 
-Description
-This is similar to the @-mentions in X/Twitter. The user can type any text in the input element but when user types `@` then a select box should appear from which they can select an option and it should be displayed in input element. For example `Hi @Luke Skywalker may the force be with you.`. An `onChange` handler should be triggered with the input and the options selected, in a format of your choice.
- 
-Instructions:
+This repository contains a React component called "MentionInput." It's designed to handle mentions in input fields, and it can be used in various applications.
 
-- Implement as much as possible in the given time.
-- Push your code to Github/Gitlab/<any other> and send us the link.
-- Please write us a note on what else you would do if you could spend more time.
- 
-What we look for:
+## Getting Started
 
-- Thinking: Are you able to think through the flow and edge cases?
-- Tests: How well is the code tested through unit/integration tests?
-- Documentation: How can anyone new run this app locally and contribute to it?
-- Code organisation: How are you organizing your components?
+To get started with this project, follow the steps below:
 
-What we don’t look for:
+### Prerequisites
 
- - Custom select box: You need not implement a custom select box. You're welcome to use the native select box or your favorite library.
- - Styling: It can look & feel very bare-bones, that's perfectly fine. 
+- Node.js: Make sure you have Node.js installed on your system.
 
-From where you can get data for options while triggering mention actions
- - Use data present in data.json as raw data for mention component.
+### Installation
 
-Happy coding! 💻
+1. Clone the repository to your local machine:
+
+   ```sh
+   git clone https://github.com/your-username/mention-input.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd mention-input
+   ```
+
+3. Install the project dependencies:
+   ```sh
+   npm install
+   ```
+
+## Usage
+
+To use the "MentionInput" component in your project, you can import it and include it in your application code. Here's an example of how to use it:
+
+```javascript
+import MentionInput from "./MentionInput";
+
+function App() {
+  return (
+    <div>
+      {/* Your other components */}
+      <MentionInput />
+      {/* Your other components */}
+    </div>
+  );
+}
+
+export default App;
+```
+
+## Running the Application Locally
+
+To run the application locally, follow these steps:
+
+1. Make sure you have completed the installation steps mentioned above.
+
+2. Start the development server:
+
+   ```sh
+   npm run dev
+   ```
+
+3. Open your web browser and visit http://localhost:5173 to view the application.
+
+## Running Test Cases
+
+To run the test cases for the "MentionInput" component, you can use the following command:
+
+```sh
+npm test
+```
+
+This will execute the unit tests and provide you with the test results.
+
+## Contributing
+
+We welcome contributions to this project. If you'd like to contribute, please follow these steps:
+
+1. Fork the repository on GitHub.
+
+2. Clone your forked repository to your local machine.
+
+3. Create a new branch for your work:
+
+   ```sh
+   git checkout -b feature/my-feature
+   ```
+
+4. Make your changes, add tests if applicable, and commit them.
+
+5. Push your changes to your fork on GitHub.
+
+6. Create a pull request (PR) from your fork's branch to the main repository's `main` branch. Be sure to provide a clear and detailed description of your changes in the PR.
+
+Thank you for your contributions!
