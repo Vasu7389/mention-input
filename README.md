@@ -17,7 +17,7 @@ To get started with this project, follow the steps below:
 1. Clone the repository to your local machine:
 
    ```sh
-   git clone https://github.com/your-username/mention-input.git
+   git clone https://github.com/Vasu7389/mention-input
    ```
 
 2. Navigate to the project directory:
