@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.mentionInput--multiLine {
+  width: 80%;
+  margin: auto;
+}
+
+.mentionInput__input {
+  border-radius: var(--border-radius);
+  height: 100%;
+  overflow-y: auto !important;
+  padding: 10px;
+}
+
+.mentionInput__input:focus {
+  outline-style: none;
+}
+
+.mentionInput__suggestions {
+  border: 1px solid grey;
+  position: absolute;
+  top: 50px !important;
+  left: 0px !important;
+  border-radius: var(--border-radius);
+  padding-left: 10px;
+  height: 150px;
+  overflow-y: auto;
+  width: 200px;
+}
+
+.mentionInput__suggestions li {
+  margin: 10px 0px;
+}
+
+.mentionInput__control {
+  position: relative;
+  height: 50px;
+}
